@@ -188,13 +188,13 @@ $footer_margin: ($baseline/4) 5;
 //-----------------
 //$homepage-bg-image: url("/static/themes/stanford/images/stanford-pano.jpg");
 
-$homepage-bg-image: url('../themes/stanford/images/stanford-pano.jpg');
+$homepage-bg-image: url('/static/stanford/images/stanford-pano.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
 
 // Css del video
-$video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
+$video-thumb-url: '/static/stanford/images/stanford-video-thumb.png';
 
 //-----------------
 //  Mixin Styles
