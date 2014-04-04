@@ -504,7 +504,7 @@ text-align: center;
 #su-footer-fin p {
   font-family: open Sans;
   font-size: 14px;
-  color: #999;
+  color: #fff;
 }
 
 #su-footer-fin p a,
@@ -587,7 +587,8 @@ text-align: center;
 .view-register .introduction header .title .title-sub,
 .view-login .introduction header .title .title-sub,
 .view-passwordreset .introduction header .title .title-sub{
-  margin: 0
+  margin: 0px
+  line-height: 22px;
 }
 
 .content-wrapper {
