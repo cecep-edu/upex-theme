@@ -41,7 +41,7 @@
 
 /*-----------------------color de la barra de la cabeza */
 #su-header {
-  background: #076f85;
+  background: #456;
   box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
   min-height: 50px;
 
@@ -302,22 +302,43 @@ Media queries
 
 
 /* ---------------------colores personalizados--------------------------*/
+/* ---------------------- color de links de navegacion --------------- */
+
+.home>header{
+  height: 561px;
+}
+
 header.global {
   background: #eee;
 }
-header.global .nav-global{
-  margin: 0;
-  padding: 0;
+
+header.global nav {
+
+padding: 0px; 
 }
 
-/* ---------------------- color de links de navegacion --------------- */
-header.global .nav-global li a{
-  display:block;
-  padding:5px;
-  color:#22558f;
+header.global h1.logo {
+  margin: 14px 600px 0px 0px;
+
+}
+
+header.global .nav-global {
+  margin-top: 0px;
+}
+
+header.global .nav-global li{
+  margin: 0px 20px 0px 0px;
+  height: 76px;
+  text-align: center;
+  background: #eee;
   font-weight:600;
   text-align: center;
-  transition: all 0.5s ease-out;
+}
+
+header.global .nav-global li a{
+  height: 40px;
+  color:#22558f;
+  padding-top: 30px;
  
 }
 
@@ -325,12 +346,15 @@ header.global .nav-global li a{
 header.global .nav-global li a:hover,
 header.global .nav-global li a:focus,
 header.global .nav-global li a:active{
-  text-decoration:none;
-  color:#fff;
-  padding: 5px;
-  /*border-bottom:5px solid #22558f;*/
-  background: #008AD0;
-  text-align: center;
+  height: 40px;
+  color:#22558f;
+  background: #ccc;
+  transition: all 0.5s ease-out;
+
+}
+
+header.global ol.user {
+margin-top: 20px;
 }
 
 /*  ---- color de los links de la barra anterior del footer ---- */
@@ -348,6 +372,11 @@ header.global .nav-courseware li .cta,
   background:#22558f;
   color:#f2f1eb;
   border-radius: 5px;
+}
+
+header.global .nav-courseware li {
+display: inline-block;
+padding-top: 14px;
 }
 
 /* ------------color del hover ----------*/
@@ -417,7 +446,7 @@ text-align: center;
 #su-footer-logos{
   display: flex;
   text-align: center;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 #logo-footer{
@@ -469,10 +498,25 @@ text-align: center;
   text-align: center;
   background: #444;
   padding: 20px;
-  color: #aaa;
+  
+}
+
+#su-footer-fin p {
   font-family: open Sans;
   font-size: 14px;
+  color: #999;
 }
+
+#su-footer-fin p a,
+#su-footer-fin p a:hover{
+  font-family: open Sans;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #fff ;
+}
+
+
+
 
 #titular{
   color: #6dccf6;

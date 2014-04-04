@@ -10,13 +10,13 @@
 //-----------------
 
 //Cardinal Color Variables
-$cardinal-red: #22558f;
+$cardinal-red: #22558f; // Color del tema azul
 $dark-red: #386fae; // COLOR DE LOS LINKS
 $cardinal-light: #008AD0; // COLOR AZUL CLARO Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #008AD0; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Beige Color Variables
-$beige: #eee;
+$beige: #22558f; // Color de lineas y color de cajas 
 $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%); 
 
@@ -29,9 +29,9 @@ $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color
 $gray: #3f3c30; //Main Text Color
 $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
-$gray-3: #eee; //Block/Course BG Color
-$gray-2: #f2f1eb;
-$gray-1: #e2e2de; //Main BG Color
+$gray-3: #eee; //color de los blooques dentro de los cursos
+$gray-2: #fff; //Color de links sofre fondo azul
+$gray-1: #fff; // Color principal de fondos de cursos
 $white: $gray-1;
 
 $black: #2e2d29;
@@ -174,7 +174,7 @@ $sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
 $sidebar-chapter-bg: $gray-2;
 $sidebar-active-image: $gray-3;
 
-$form-bg-color: $gray-1;
+$form-bg-color: $gray-3;
 $modal-bg-color: $gray-1;
 
 //TOP HEADER IMAGE MARGIN
@@ -186,7 +186,7 @@ $footer_margin: ($baseline/4) 5;
 //-----------------
 //  CSS de las imagenes de fondo
 //-----------------
-$homepage-bg-image: url('../themes/stanford/images/stanford-pano.jpg');
+$homepage-bg-image: url("../themes/stanford/images/stanford-pano.jpg");
 
 $login-banner-image: none;
 $register-banner-image: none;
