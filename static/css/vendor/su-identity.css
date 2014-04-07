@@ -580,7 +580,7 @@ text-align: center;
 .view-register .introduction header .title .title-super,
 .view-login .introduction header .title .title-super,
 .view-passwordreset .introduction header .title .title-super{
-  line-height: 30px;
+  line-height: 22px;
   margin: -15px 0 3px 0;
 }
 
