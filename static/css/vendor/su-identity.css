@@ -616,7 +616,16 @@ margin: 30px 0px 20px 0px;
 
 }
 
-
+.static-container {
+margin: 20px auto 0px;
+max-width: 900px;
+padding: 60px 40px 120px;
+background: #eee;
+border-radius: 20px;
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+-moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+}
 
 
 /*
