@@ -586,7 +586,7 @@ text-align: center;
 .view-register .introduction header .title .title-sub,
 .view-login .introduction header .title .title-sub,
 .view-passwordreset .introduction header .title .title-sub{
-  margin: 20px;
+  margin: 20px 0px;
   line-height: 22px;
 }
 
@@ -612,7 +612,7 @@ text-align: center;
 .view-passwordreset .passwordreset form .instructions, .passwordreset form .view-passwordreset .instructions,
 .view-passwordreset #forgot-password-modal #password-reset form .instructions,
 #forgot-password-modal #password-reset form .view-passwordreset .instructions {
-margin: 30px 0 20px 0;
+margin: 30px 0px 20px 0px;
 
 }
 
