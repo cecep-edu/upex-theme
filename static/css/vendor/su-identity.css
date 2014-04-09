@@ -498,13 +498,12 @@ text-align: center;
   text-align: center;
   background: #444;
   padding: 20px;
-  
+  color: #fff;
 }
 
 #su-footer-fin p {
   font-family: open Sans;
   font-size: 14px;
-  color: #fff;
 }
 
 #su-footer-fin p a,
@@ -587,7 +586,7 @@ text-align: center;
 .view-register .introduction header .title .title-sub,
 .view-login .introduction header .title .title-sub,
 .view-passwordreset .introduction header .title .title-sub{
-  margin: 0px
+  margin: 20px 0px;
   line-height: 22px;
 }
 
@@ -595,8 +594,38 @@ text-align: center;
   background: #fff;
 }
 
+/*Fix margen*/
+.view-register .login form .instructions,
+.login form .view-register .instructions,
+.view-register .register form .instructions, .register form .view-register .instructions,
+.view-register .passwordreset form .instructions,
+.passwordreset form .view-register .instructions,
+.view-register #forgot-password-modal #password-reset form .instructions,
+#forgot-password-modal #password-reset form .view-register .instructions,
+.view-login .login form .instructions, .login form .view-login .instructions,
+.view-login .register form .instructions, .register form .view-login .instructions,
+.view-login .passwordreset form .instructions, .passwordreset form .view-login .instructions,
+.view-login #forgot-password-modal #password-reset form .instructions,
+#forgot-password-modal #password-reset form .view-login .instructions,
+.view-passwordreset .login form .instructions, .login form .view-passwordreset .instructions,
+.view-passwordreset .register form .instructions, .register form .view-passwordreset .instructions,
+.view-passwordreset .passwordreset form .instructions, .passwordreset form .view-passwordreset .instructions,
+.view-passwordreset #forgot-password-modal #password-reset form .instructions,
+#forgot-password-modal #password-reset form .view-passwordreset .instructions {
+margin: 30px 0px 20px 0px;
 
+}
 
+.static-container {
+margin: 20px auto 0px;
+max-width: 900px;
+padding: 60px 40px 120px;
+background: #eee;
+border-radius: 20px;
+-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+-moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+}
 
 
 /*
