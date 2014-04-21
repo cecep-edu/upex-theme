@@ -293,7 +293,7 @@ padding: 0px;
 }
 
 header.global h1.logo {
-  margin: 14px 60% 0px 0px;
+  margin: 14px 45% 0px 0px;
 
 }
 
@@ -473,13 +473,14 @@ text-align: center;
   text-align: center;
   background: #444;
   padding: 20px;
+  color: #fff;
   
 }
 
 #su-footer-fin p {
   font-family: open Sans;
   font-size: 14px;
-  color: #fff;
+  
 }
 
 #su-footer-fin p a,
@@ -558,7 +559,6 @@ text-align: center;
 .view-login .introduction header .title .title-sub,
 .view-passwordreset .introduction header .title .title-sub{
   margin: 0;
-  line-height: 22px;
 }
 
 .home>header .title{
