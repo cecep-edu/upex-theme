@@ -1,10 +1,4 @@
-/**
- * su-identity.css
- * ========================================================
- * Custom base styles
- * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
- */
-
+/* reseteo*/
 #su-header .su-container,
 #su-footer .su-container {
   margin: 0 auto;
@@ -37,25 +31,6 @@
 #su-footer .row:after {
   clear: both;
 }
-
-
-/*-----------------------color de la barra de la cabeza */
-#su-header {
-  background: #456;
-  box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
-  min-height: 50px;
-
-background: #3b679e; /* Old browsers */
-background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b679e), color-stop(50%,#2b88d9), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
-
-}
-
 
 /* ------------------footer colores del footer ---------------------*/
 #su-footer,
@@ -318,7 +293,7 @@ padding: 0px;
 }
 
 header.global h1.logo {
-  margin: 14px 45% 0px 0px;
+  margin: 14px 60% 0px 0px;
 
 }
 
@@ -498,12 +473,13 @@ text-align: center;
   text-align: center;
   background: #444;
   padding: 20px;
-  color: #fff;
+  
 }
 
 #su-footer-fin p {
   font-family: open Sans;
   font-size: 14px;
+  color: #fff;
 }
 
 #su-footer-fin p a,
@@ -514,14 +490,10 @@ text-align: center;
   color: #fff ;
 }
 
-
-
-
 #titular{
   color: #6dccf6;
   margin-top: 20px;
-   
-}
+ }
 
 #twitter{
   margin: 0 auto;
@@ -530,7 +502,8 @@ text-align: center;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   height: 180px;
-  overflow: hidden; 
+  overflow: hidden;
+  word-break: break-all; 
 }
 
 #twitter p{
@@ -551,8 +524,6 @@ text-align: center;
 #twitter a:hover{
   border-bottom:none;
 }
-
-
 
 /*------------------ pag. estaticas */
 .vision{
@@ -579,98 +550,17 @@ text-align: center;
 .view-register .introduction header .title .title-super,
 .view-login .introduction header .title .title-super,
 .view-passwordreset .introduction header .title .title-super{
-  line-height: 22px;
+  line-height: 30px;
   margin: -15px 0 3px 0;
 }
 
 .view-register .introduction header .title .title-sub,
 .view-login .introduction header .title .title-sub,
 .view-passwordreset .introduction header .title .title-sub{
-  margin: 20px 0px;
+  margin: 0;
   line-height: 22px;
 }
 
-.content-wrapper {
-  background: #fff;
+.home>header .title{
+  width: 50%;
 }
-
-/*Fix margen*/
-.view-register .login form .instructions,
-.login form .view-register .instructions,
-.view-register .register form .instructions, .register form .view-register .instructions,
-.view-register .passwordreset form .instructions,
-.passwordreset form .view-register .instructions,
-.view-register #forgot-password-modal #password-reset form .instructions,
-#forgot-password-modal #password-reset form .view-register .instructions,
-.view-login .login form .instructions, .login form .view-login .instructions,
-.view-login .register form .instructions, .register form .view-login .instructions,
-.view-login .passwordreset form .instructions, .passwordreset form .view-login .instructions,
-.view-login #forgot-password-modal #password-reset form .instructions,
-#forgot-password-modal #password-reset form .view-login .instructions,
-.view-passwordreset .login form .instructions, .login form .view-passwordreset .instructions,
-.view-passwordreset .register form .instructions, .register form .view-passwordreset .instructions,
-.view-passwordreset .passwordreset form .instructions, .passwordreset form .view-passwordreset .instructions,
-.view-passwordreset #forgot-password-modal #password-reset form .instructions,
-#forgot-password-modal #password-reset form .view-passwordreset .instructions {
-margin: 30px 0px 20px 0px;
-
-}
-
-.static-container {
-margin: 20px auto 0px;
-max-width: 900px;
-padding: 60px 40px 120px;
-background: #eee;
-border-radius: 20px;
--webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
--moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
-}
-
-
-/*
-Sticky Footer Solution
-by Steve Hatcher 
-http://stever.ca
-http://www.cssstickyfooter.com
-*/
-
-/*html, body {*/
-  /*height: 100%;*/
-/*}*/
-/*#su-wrap {*/
-  /*min-height: 100%;*/
-/*}*/
-/*#su-content {*/
-  /*overflow:visible;*/
-  /*padding-bottom: 120px; [> must be same height as the footer <]*/
-/*}*/
-/*#su-footer {*/
-  /*position: relative;*/
-  /*margin-top: -120px; [> negative value of footer height <]*/
-  /*height: 120px;*/
-  /*clear:both;*/
-/*} */
-
-/*[> IE6/7 uses media, <]*/
-/*@media, {*/
-  /*#su-footer {*/
-    /*height: 219px;*/
-  /*}*/
-/*}*/
-
-/*[> IE8 uses \0/ <]*/
-/*@media all {*/
-  /*#su-footer {*/
-    /*height: 196px\0/;*/
-  /*}*/
-/*}*/
-
-/*[>Opera Fix<]*/
-  /*body:before { [> thanks to Maleika (Kohoutec)<]*/
-  /*content:"";*/
-  /*height:100%;*/
-  /*float:left;*/
-  /*width:0;*/
-  /*margin-top:-32767px;[> thank you Erik J - negate effect of float<]*/
-/*}*/

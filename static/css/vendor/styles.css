@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS del slider */
+
+#slideshow{
+	width:100%;
+	margin:0 auto;
+}
+
+.html_carousel div.slide {
+	position: relative;
+}	
+.html_carousel div.slide img {
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0 1px 1px #c1c1c1;
+    -moz-box-shadow: 0 1px 1px #c1c1c1;
+    box-shadow: 0 1px 1px #c1c1c1;
+	border-radius:15px;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
