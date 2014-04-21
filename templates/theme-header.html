@@ -3,8 +3,6 @@
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 <%block name="title"><title>UPEx</title></%block>
-    <link type="text/css" rel="stylesheet" href="${static.url('themes/stanford/static/css/vendor/styles.css">
-    <script src="${static.url('themes/stanford/static/js/jquery.carouFredSel-5.5.2.js" type="text/javascript"></script>
 ## Toss the Stanford brand bar on top of the page
 
 ##<%block name="navigation_top">
@@ -37,34 +35,6 @@
        <a href="${marketing_link('ABOUT')}">Acerca de</a>
       </li>
 </%block>
-## aqui el slider
-
-<%block>
-
-#SLIDER-->
-        <section id="slideshow">
-          <div class="html_carousel">
-           <div id="slider">
-                  <div class="slide">
-                      <img src="${static.url('themes/stanford/images/sliderimage1.jpg')}" />
-                  </div>#foto1-->
-                  
-                  <div class="slide">
-                      <img src="${static.url('themes/stanford/images/sliderimage2.jpg" />
-                  </div>#foto2-->
-                  
-                  <div class="slide">
-                       <img src="${static.url('themes/stanford/images/sliderimage3.jpg"/>
-                  </div>#foto3-->
-                  
-                  <div class="slide">
-                       <img src="${static.url('themes/stanford/images/sliderimage4.jpg"/>
-                  </div>#foto4-->
-      
-           </div>#slider-->         
-          </div>#html_carusel-->
-        </section>#ACABA SLIDER-->
-</%block>
 
 ## When authenticated, show both the about page and find courses
 <%block name="navigation_global_links_authenticated">
@@ -75,20 +45,3 @@
       <a href="${marketing_link('COURSES')}">Buscar Cursos</a>
     </li>
 </%block>
-
-# script del slider
-  <script type="text/javascript">
-    $("#slider").carouFredSel({
-    responsive  : true,
-    scroll    : {
-    fx      : "crossfade",
-    easing    : "swing",
-    duration  : 800,
-      },
-    items   : {
-    visible   : 1,
-    height    : "100%"
-      }
-    });
-</script>
-#ACABA SCRIPT NUEVO SLIDER  
