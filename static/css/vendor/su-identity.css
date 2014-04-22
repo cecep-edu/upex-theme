@@ -564,3 +564,14 @@ text-align: center;
 .home>header .title{
   width: 50%;
 }
+
+.static-container {
+  width: 900px;
+  background: #eee;
+  margin: 20px auto;
+  padding: 30px 0px 0px 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+}
