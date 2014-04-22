@@ -279,12 +279,13 @@ Media queries
 /* ---------------------colores personalizados--------------------------*/
 /* ---------------------- color de links de navegacion --------------- */
 .home>header {
-  height: 518px;
+  height: 100%;
 }
 
 /* aumentar*/
 .home>header .outer-wrapper {
- padding-top: 215px;
+ padding-top: 115px;
+ padding-bottom: 55px;
 }
 
 header.global {
