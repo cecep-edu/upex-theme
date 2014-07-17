@@ -1,7 +1,7 @@
 
 ## mako
-<%! 
-  from django.core.urlresolvers import reverse 
+<%!
+  from django.core.urlresolvers import reverse
   from edxmako.shortcuts import marketing_link
 %>
 <%namespace name='static' file='/static_content.html'/>
@@ -31,15 +31,15 @@
                             });
                         });
                     </script>
-                </div>  
+                </div>
             </div>
- 
+
             ##-------------- navegación footer
             <div id="su-footer-text" class="span2">
                 <ul>
                     <li>Dirección:</br></br>
                         Av. Río Amazonas N37-271</br></br>
-                        y Villalengua esq.,</br></br> 
+                        y Villalengua esq.,</br></br>
                         Quito - Ecuador</br></br>
                         (+593 2) 382-9900</br></br>
                         (+593 2) 423 6338</br></br>
@@ -50,12 +50,12 @@
             </div>
             ##--------------------------------------
 
-            ## redes sociales------------   
+            ## redes sociales------------
             <div id="su-footer-redes" class="span2">
                 <div id="su-footer-texto">
                     síguenos en:
                 </div>
-            
+
                 <div id="su-footer-logos">
                     <a href="https://www.facebook.com/upexec">
                         <img src="${static.url('themes/stanford/images/facebook.png')}" alt="UPEx" width="40" height="40"/></a>
@@ -74,7 +74,7 @@
                     </a>
                 </div>
             </div>
-            ##----------------------------   
+            ##----------------------------
             <div style="clear: both;"></div>
         </div>
     </div>
@@ -108,4 +108,13 @@
       ##<p class="copyright vcard">&copy; <span class="fn org">Desarrollador por: Dpto. de Desarrollo e Innovación tecnológica / Derechos reservados.</span>, <span class="adr"> <span class="locality">Ecuador</span>, <span class="region">Quito</span> <span class="postal-code"></span> </span></p>
               Copyright © 2014 - Desarrollo e Innovación Tecnológica - IAEN
     </div>
-</div>    
+
+    <!-- Para Sentry -->
+    <script src="//d3nslu0hdya83q.cloudfront.net/dist/1.0/raven.min.js"></script>
+    <script>
+      Raven.config('https://04b3538293dd4d068addc892c74d461b@sentry.upex.edu.ec/6', {
+        // we highly recommend restricting exceptions to a domain in order to filter out clutter
+        //whitelistUrls: [/example\.com/]
+      }).install();
+    </script>
+</div>
